@@ -1,6 +1,4 @@
-import torch 
 from torch.utils.data import DataLoader
-
 from data.dataset import BrainSegmentationDataset
 from data.preprocessing import get_train_transforms, get_valid_transforms
 
